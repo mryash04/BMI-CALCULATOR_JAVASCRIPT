@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="card w-50 header">
+        <div class="card-header text-center bg-info">
+            <h2>BMI Calculator</h2>
+        </div>
+        <div class="card-body">
+            <form onsubmit="return false">
+                <div class="form-group">
+                    <label>Weight</label>
+                    <input type="text" name="" placeholder="Weight in Kg" required id="weight" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Height</label>
+                    <input type="text" name="" placeholder="Height in feet" required id="height" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Bmi value</label>
+                    <input type="text" name="" id="bmivalue" disabled class="form-control">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success" id="buttones">Click me</button>
+                </div>
+            </form>
+        </div>
+        <div class="card-footer text-center bg-info">
+            <h2>The Healthy BMI IS Between 19 to 25</h2>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+    
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
